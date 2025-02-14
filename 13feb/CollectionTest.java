@@ -12,7 +12,7 @@ public class CollectionTest {
         hm.put(2, "two");
         hm.put(3, "three");
         System.out.println("Initial HashMap hm1 are : " + hm);
-        hm.put(2, "For");
+        hm.put(2, "For")
         System.out.println("Updated Map " + hm);
         hm.remove(1);
         System.out.println("Mappings after removal are : " + hm);
