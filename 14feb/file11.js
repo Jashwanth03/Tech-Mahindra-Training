@@ -22,5 +22,5 @@ function getDay(day) {
     }
 }
 
-const userInput = "Monday";
+const userInput = "tuesday";
 getDay(userInput);
