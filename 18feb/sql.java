@@ -136,7 +136,7 @@ public class sql {
 
     public static void insertRecord() throws SQLException {
 
-        String query = "insert into employee values(35, 'MCCA',720000,'AAA');";
+        String query = "insert into employee values(36, 'MCCA',720000,'AAA');";
         Connection connect = DriverManager.getConnection(url, username, password);
         Statement st = connect.createStatement();
         int row = st.executeUpdate(query);
