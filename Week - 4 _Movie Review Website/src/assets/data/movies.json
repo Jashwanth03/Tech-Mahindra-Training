@@ -1,0 +1,92 @@
+[
+    {
+        "id": 1,
+        "title": "The Shawshank Redemption",
+        "rating": 9.3,
+        "description": "Two imprisoned men bond over a number of years, finding solace and eventual redemption through acts of common decency.",
+        "poster": "/src/assets/images/shawshank.jpeg",
+        "cast": [
+            "Tim Robbins",
+            "Morgan Freeman",
+            "Bob Gunton",
+            "William Sadler"
+        ],
+        "reviews": [
+            {"user": "John", "text": "A masterpiece!", "rating": 5},
+            {"user": "Emma", "text": "Incredible storytelling and acting.", "rating": 4.8},
+            {"user": "Liam", "text": "One of the best films ever made.", "rating": 5}
+        ]
+    },
+    {
+        "id": 2,
+        "title": "The Godfather",
+        "rating": 9.2,
+        "description": "The aging patriarch of an organized crime dynasty transfers control of his clandestine empire to his reluctant son.",
+        "poster": "/src/assets/images/godfather.jpeg",
+        "cast": [
+            "Marlon Brando",
+            "Al Pacino",
+            "James Caan",
+            "Diane Keaton"
+        ],
+        "reviews": [
+            {"user": "Jane", "text": "Classic!", "rating": 4.5},
+            {"user": "Oliver", "text": "A timeless epic.", "rating": 4.9},
+            {"user": "Sophia", "text": "Brando’s performance is legendary.", "rating": 4.7}
+        ]
+    },
+    {
+        "id": 3,
+        "title": "Inception",
+        "rating": 8.8,
+        "description": "A thief with the ability to enter dreams and steal secrets from the subconscious is given a final job.",
+        "poster": "/src/assets/images/inception.jpeg",
+        "cast": [
+            "Leonardo DiCaprio",
+            "Joseph Gordon-Levitt",
+            "Elliot Page",
+            "Tom Hardy"
+        ],
+        "reviews": [
+            {"user": "Alex", "text": "Mind-blowing!", "rating": 4.8},
+            {"user": "Mia", "text": "Complex but thrilling.", "rating": 4.6},
+            {"user": "Noah", "text": "Nolan’s best work!", "rating": 4.9}
+        ]
+    },
+    {
+        "id": 4,
+        "title": "Pulp Fiction",
+        "rating": 8.9,
+        "description": "The lives of two mob hitmen, a boxer, and a pair of diner bandits intertwine in four tales of violence and redemption.",
+        "poster": "/src/assets/images/pulpfiction.jpeg",
+        "cast": [
+            "John Travolta",
+            "Samuel L. Jackson",
+            "Uma Thurman",
+            "Bruce Willis"
+        ],
+        "reviews": [
+            {"user": "Sam", "text": "Tarantino at his best!", "rating": 4.7},
+            {"user": "Ava", "text": "Quirky and unforgettable.", "rating": 4.5},
+            {"user": "Ethan", "text": "The dialogue is pure gold.", "rating": 4.8}
+        ]
+    },
+    {
+        "id": 5,
+        "title": "The Dark Knight",
+        "rating": 9.0,
+        "description": "When the menace known as the Joker emerges, Batman must confront his greatest psychological and physical challenges.",
+        "poster": "/src/assets/images/darkknight.jpeg",
+        "cast": [
+            "Christian Bale",
+            "Heath Ledger",
+            "Aaron Eckhart",
+            "Maggie Gyllenhaal"
+        ],
+        "reviews": [
+            {"user": "Mike", "text": "Epic!", "rating": 5},
+            {"user": "Isabella", "text": "Ledger’s Joker is iconic.", "rating": 4.9},
+            {"user": "Lucas", "text": "A superhero movie masterpiece.", "rating": 4.8}
+        ]
+    }
+]
