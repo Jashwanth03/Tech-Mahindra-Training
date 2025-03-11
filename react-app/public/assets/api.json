@@ -1,0 +1,267 @@
+[
+    {
+        "id": "1",
+        "title": "GTA 6",
+        "genre": [
+            "action",
+            "adventure",
+            "open-world"
+        ],
+        "platform": [
+            "PS5",
+            "Xbox Series X/S"
+        ],
+        "releaseDate": "2025-10-31",
+        "description": "An open-world crime adventure set in the fictional state of Leonida, featuring a criminal duo.",
+        "image": "/assets/images/gta6.jpeg",
+        "price": 69.99,
+        "status": "upcoming",
+        "developer": "Rockstar Games",
+        "rating": "M",
+        "trailer": "https://example.com/gta-6-trailer"
+    },
+    {
+        "id": "2",
+        "title": "Red Dead Redemption 2",
+        "genre": [
+            "action",
+            "adventure",
+            "western"
+        ],
+        "platform": [
+            "PC",
+            "PS4",
+            "Xbox One"
+        ],
+        "releaseDate": "2018-10-26",
+        "description": "A western-themed action-adventure following Arthur Morgan and the Van der Linde gang.",
+        "image": "/assets/images/rdr2.jpeg",
+        "price": 59.99,
+        "status": "released",
+        "developer": "Rockstar Games",
+        "rating": "M",
+        "trailer": "https://example.com/red-dead-redemption-2-trailer"
+    },
+    {
+        "id": "3",
+        "title": "Black Myth Wukong",
+        "genre": [
+            "action",
+            "RPG",
+            "mythological"
+        ],
+        "platform": [
+            "PC",
+            "PS5"
+        ],
+        "releaseDate": "2024-08-20",
+        "description": "An action RPG inspired by Journey to the West, featuring the Destined One.",
+        "image": "/assets/images/bmw.jpeg",
+        "price": 59.99,
+        "status": "released",
+        "developer": "Game Science",
+        "rating": "T",
+        "trailer": "https://example.com/black-myth-wukong-trailer"
+    },
+    {
+        "id": "4",
+        "title": "Uncharted",
+        "genre": [
+            "adventure",
+            "action",
+            "cinematic"
+        ],
+        "platform": [
+            "PS4",
+            "PS5",
+            "PC"
+        ],
+        "releaseDate": "2016-05-10",
+        "description": "Follow Nathan Drake on a thrilling treasure-hunting adventure across the globe.",
+        "image": "/assets/images/uncharted.jpeg",
+        "price": 49.99,
+        "status": "released",
+        "developer": "Naughty Dog",
+        "rating": "T",
+        "trailer": "https://example.com/uncharted-trailer"
+    },
+    {
+        "id": "5",
+        "title": "The Last of Us",
+        "genre": [
+            "action",
+            "survival",
+            "post-apocalyptic"
+        ],
+        "platform": [
+            "PS4",
+            "PS5",
+            "PC"
+        ],
+        "releaseDate": "2013-06-14",
+        "description": "A post-apocalyptic tale of survival with Joel and Ellie in a ravaged world.",
+        "image": "/assets/images/tlou.jpeg",
+        "price": 59.99,
+        "status": "released",
+        "developer": "Naughty Dog",
+        "rating": "M",
+        "trailer": "https://example.com/the-last-of-us-trailer"
+    },
+    {
+        "id": "6",
+        "title": "God of War",
+        "genre": [
+            "action",
+            "RPG",
+            "mythological"
+        ],
+        "platform": [
+            "PS4",
+            "PS5",
+            "PC"
+        ],
+        "releaseDate": "2018-04-20",
+        "description": "Kratos and his son Atreus embark on a mythic journey in Norse mythology.",
+        "image": "/assets/images/gow.jpeg",
+        "price": 59.99,
+        "status": "released",
+        "developer": "Santa Monica Studio",
+        "rating": "M",
+        "trailer": "https://example.com/god-of-war-trailer"
+    },
+    {
+        "id": "7",
+        "title": "Assassin’s Creed Shadows",
+        "genre": [
+            "action",
+            "stealth",
+            "historical"
+        ],
+        "platform": [
+            "PS5",
+            "Xbox Series X/S",
+            "PC"
+        ],
+        "releaseDate": "2025-11-15",
+        "description": "A stealth-action adventure set in feudal Japan with dual protagonists.",
+        "image": "/assets/images/acs.jpeg",
+        "price": 69.99,
+        "status": "upcoming",
+        "developer": "Ubisoft Quebec",
+        "rating": "M",
+        "trailer": "https://example.com/assassins-creed-shadows-trailer"
+    },
+    {
+        "id": "8",
+        "title": "Spider-Man",
+        "genre": [
+            "action",
+            "superhero",
+            "open-world"
+        ],
+        "platform": [
+            "PS4",
+            "PS5",
+            "PC"
+        ],
+        "releaseDate": "2018-09-07",
+        "description": "Swing through New York as Peter Parker battles iconic villains.",
+        "image": "/assets/images/spider.jpeg",
+        "price": 59.99,
+        "status": "released",
+        "developer": "Insomniac Games",
+        "rating": "T",
+        "trailer": "https://example.com/spider-man-trailer"
+    },
+    {
+        "id": "9",
+        "title": "Forza Horizon 4",
+        "genre": [
+            "racing",
+            "simulation",
+            "open-world"
+        ],
+        "platform": [
+            "PC",
+            "Xbox One"
+        ],
+        "releaseDate": "2018-10-02",
+        "description": "An open-world racing game set in a fictionalized Britain with dynamic seasons.",
+        "image": "/assets/images/forza.jpeg",
+        "price": 59.99,
+        "status": "released",
+        "developer": "Playground Games",
+        "rating": "E",
+        "trailer": "https://example.com/forza-horizon-4-trailer"
+    },
+    {
+        "id": "10",
+        "title": "Need For Speed Underground",
+        "genre": [
+            "racing",
+            "arcade",
+            "customization"
+        ],
+        "platform": [
+            "PS2",
+            "Xbox",
+            "GameCube",
+            "PC"
+        ],
+        "releaseDate": "2003-11-17",
+        "description": "A street racing game with extensive car customization and night-time urban tracks.",
+        "image": "/assets/images/nfs.jpeg",
+        "price": 29.99,
+        "status": "released",
+        "developer": "EA Black Box",
+        "rating": "T",
+        "trailer": "https://example.com/nfs-underground-trailer"
+    },
+    {
+        "id": "11",
+        "title": "The Witcher 3",
+        "genre": [
+            "RPG",
+            "action",
+            "fantasy"
+        ],
+        "platform": [
+            "PC",
+            "PS4",
+            "Xbox One",
+            "Switch"
+        ],
+        "releaseDate": "2015-05-19",
+        "description": "A fantasy RPG following Geralt of Rivia on a monster-hunting quest.",
+        "image": "/assets/images/witcher.jpeg",
+        "price": 49.99,
+        "status": "released",
+        "developer": "CD Projekt Red",
+        "rating": "M",
+        "trailer": "https://example.com/witcher-3-trailer"
+    },
+    {
+        "id": "12",
+        "title": "Elden Ring",
+        "genre": [
+            "RPG",
+            "action",
+            "open-world"
+        ],
+        "platform": [
+            "PC",
+            "PS4",
+            "PS5",
+            "Xbox One",
+            "Xbox Series X/S"
+        ],
+        "releaseDate": "2022-02-25",
+        "description": "An open-world action RPG set in a vast world crafted by George R.R. Martin.",
+        "image": "/assets/images/elden.jpeg",
+        "price": 59.99,
+        "status": "released",
+        "developer": "FromSoftware",
+        "rating": "M",
+        "trailer": "https://example.com/elden-ring-trailer"
+    }
+]
