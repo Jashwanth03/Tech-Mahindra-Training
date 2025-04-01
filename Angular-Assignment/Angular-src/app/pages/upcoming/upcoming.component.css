@@ -1,0 +1,10 @@
+.upcoming-section {
+  padding: 1rem; /* Match .game-grid padding */
+  margin: 0; /* Ensure no extra margin */
+}
+
+h2 {
+  color: #ffc107;
+  margin-bottom: 2rem;
+  text-transform: uppercase;
+}

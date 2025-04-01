@@ -1,0 +1,23 @@
+.hero {
+  background: linear-gradient(rgba(0,0,0,0.7), rgba(0,0,0,0.7)), url('/assets/images/hero-bg.jpg');
+  background-size: cover;
+  padding: 4rem 2rem;
+  text-align: center;
+}
+
+.hero h1 {
+  font-size: 3rem;
+  margin-bottom: 1rem;
+  color: #ffc107;
+  animation: fadeIn 1s ease-in;
+}
+
+.featured-games {
+  padding: 1rem; /* Reduced to match .game-grid */
+  margin: 0; /* Ensure no extra margin */
+}
+
+@keyframes fadeIn {
+  from { opacity: 0; }
+  to { opacity: 1; }
+}

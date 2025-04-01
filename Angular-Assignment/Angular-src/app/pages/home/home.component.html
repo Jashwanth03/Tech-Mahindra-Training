@@ -1,0 +1,12 @@
+<section class="hero">
+    <h1>Welcome to FragPunk</h1>
+    <p>Experience gaming like never before</p>
+</section>
+
+<section class="featured-games">
+    <h2>Featured Games</h2>
+    <div class="game-grid" [attr.data-item-count]="featuredGames.length">
+        <app-game-card *ngFor="let game of featuredGames" [game]="game">
+        </app-game-card>
+    </div>
+</section>

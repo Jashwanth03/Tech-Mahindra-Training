@@ -1,0 +1,19 @@
+.about-section {
+  padding: 2rem;
+  max-width: 800px;
+  margin: 0 auto;
+}
+
+h2 {
+  color: #ffc107; /* Rockstar yellow */
+  margin-bottom: 2rem;
+  text-transform: uppercase;
+}
+
+p {
+  line-height: 1.6;
+}
+
+.team {
+  margin-top: 2rem;
+}

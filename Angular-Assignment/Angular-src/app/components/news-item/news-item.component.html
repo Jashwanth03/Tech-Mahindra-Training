@@ -1,0 +1,8 @@
+<div class="news-card" [@fadeIn]>
+    <img [src]="news.image" alt="{{news.title}}" class="news-image">
+    <div class="news-content">
+        <h3>{{news.title}}</h3>
+        <p>{{news.date | releaseDate}}</p>
+        <p>{{news.summary}}</p>
+    </div>
+</div>

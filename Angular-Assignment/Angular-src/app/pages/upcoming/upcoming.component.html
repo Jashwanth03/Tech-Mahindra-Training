@@ -1,0 +1,7 @@
+<section class="upcoming-section">
+    <h2>Upcoming Games</h2>
+    <div class="game-grid" [attr.data-item-count]="upcomingGames.length">
+        <app-game-card *ngFor="let game of upcomingGames" [game]="game">
+        </app-game-card>
+    </div>
+</section>

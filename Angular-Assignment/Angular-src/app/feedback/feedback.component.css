@@ -1,0 +1,63 @@
+.feedback-section {
+    padding: 2rem;
+    max-width: 600px;
+    margin: 0 auto;
+  }
+  
+  h2 {
+    color: #ffc107;
+    margin-bottom: 1.5rem;
+    text-transform: uppercase;
+    text-align: center;
+  }
+  
+  .form-group {
+    margin-bottom: 1.5rem;
+  }
+  
+  label {
+    display: block;
+    color: #fff;
+    margin-bottom: 0.5rem;
+  }
+  
+  input, textarea {
+    width: 100%;
+    padding: 0.75rem;
+    background: #1a1a1a;
+    border: 1px solid #333;
+    color: #fff;
+    border-radius: 4px;
+    box-sizing: border-box;
+  }
+  
+  textarea {
+    height: 150px;
+    resize: vertical;
+  }
+  
+  .error {
+    color: #ff4444;
+    font-size: 0.875rem;
+    margin-top: 0.25rem;
+  }
+  
+  .submit-btn {
+    background-color: #ffc107;
+    color: #000;
+    border: none;
+    padding: 0.75rem 1.5rem;
+    border-radius: 5px;
+    cursor: pointer;
+    width: 100%;
+    transition: background-color 0.3s ease;
+  }
+  
+  .submit-btn:hover {
+    background-color: #ffca28;
+  }
+  
+  .submit-btn:disabled {
+    background-color: #666;
+    cursor: not-allowed;
+  }

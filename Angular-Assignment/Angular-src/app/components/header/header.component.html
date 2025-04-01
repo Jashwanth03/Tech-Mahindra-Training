@@ -1,0 +1,9 @@
+<nav class="navbar">
+    <a routerLink="/" class="logo">FragPunk</a>
+    <ul class="menu">
+        <li *ngFor="let item of menuItems" [class.active]="currentRoute === item.route">
+            <a [routerLink]="item.route">{{item.label}}</a>
+        </li>
+
+    </ul>
+</nav>

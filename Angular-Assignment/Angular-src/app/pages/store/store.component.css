@@ -1,0 +1,32 @@
+.store-section {
+  padding: 2rem;
+}
+
+h2 {
+  color: #ffc107;
+  margin-bottom: 2rem;
+  text-transform: uppercase;
+}
+
+.store-item {
+  display: flex;
+  flex-direction: column;
+  align-items: center; /* Center the card and button */
+  gap: 1rem; /* Add a 1rem gap between the card and button */
+}
+
+.buy-btn {
+  background-color: #ffc107;
+  color: #000;
+  border: none;
+  padding: 0.75rem 1.5rem;
+  border-radius: 5px;
+  cursor: pointer;
+  width: 100%;
+  max-width: 300px; /* Match the game card width */
+  transition: background-color 0.3s ease;
+}
+
+.buy-btn:hover {
+  background-color: #ffca28;
+}

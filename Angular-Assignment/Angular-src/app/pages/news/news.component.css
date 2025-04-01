@@ -1,0 +1,9 @@
+.news-section {
+  padding: 2rem;
+}
+
+h2 {
+  color: #ffc107;
+  margin-bottom: 2rem;
+  text-transform: uppercase;
+}

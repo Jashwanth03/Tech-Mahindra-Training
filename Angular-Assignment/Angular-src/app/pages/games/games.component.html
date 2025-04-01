@@ -1,0 +1,23 @@
+<section class="games-section">
+    <form [formGroup]="filterForm" class="filters">
+        <select formControlName="genre">
+            <option value="">All Genres</option>
+            <option value="action">Action</option>
+            <option value="rpg">RPG</option>
+            <option value="racing">Racing</option>
+            <option value="adventure">Adventure</option>
+        </select>
+        <select formControlName="platform">
+            <option value="">All Platforms</option>
+            <option value="PC">PC</option>
+            <option value="PS5">PS5</option>
+            <option value="Xbox">Xbox</option>
+            <option value="Switch">Switch</option>
+        </select>
+    </form>
+
+    <div class="game-grid" [attr.data-item-count]="games.length">
+        <app-game-card *ngFor="let game of games | genreFilter:filterForm.value.genre" [game]="game">
+        </app-game-card>
+    </div>
+</section>

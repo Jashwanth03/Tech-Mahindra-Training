@@ -1,0 +1,173 @@
+body {
+  background: #000;
+  color: #fff;
+  font-family: 'Poppins', sans-serif;
+  margin: 0;
+  padding: 0;
+}
+
+.navbar {
+  background: rgba(0, 0, 0, 0.9);
+  padding: 1rem 2rem;
+  display: flex;
+  justify-content: space-between;
+  position: sticky;
+  top: 0;
+  z-index: 1000;
+  transition: background 0.3s ease;
+}
+
+.navbar:hover {
+  background: rgba(0, 0, 0, 1);
+}
+
+.logo {
+  font-size: 2rem;
+  font-weight: bold;
+  color: #ffc107;
+  transition: transform 0.3s ease;
+}
+
+.logo:hover {
+  transform: scale(1.1);
+}
+
+.menu {
+  display: flex;
+  list-style: none;
+  margin: 0;
+  padding: 0;
+}
+
+.menu li {
+  margin: 0 1.5rem;
+  position: relative;
+}
+
+.menu a {
+  color: #fff;
+  text-decoration: none;
+  text-transform: uppercase;
+  padding: 0.5rem;
+  transition: all 0.3s ease;
+}
+
+.menu a:hover {
+  color: #ffc107;
+  transform: translateY(-2px);
+}
+
+.menu a::after {
+  content: '';
+  position: absolute;
+  width: 0;
+  height: 2px;
+  bottom: 0;
+  left: 0;
+  background: #ffc107;
+  transition: width 0.3s ease;
+}
+
+.menu a:hover::after {
+  width: 100%;
+}
+
+.game-grid, .news-grid {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
+  gap: 0; /* No gap between cards */
+  padding: 1rem;
+  transition: all 0.3s ease;
+  justify-items: center;
+  max-width: 100%;
+}
+
+/* Specific adjustment for Upcoming page */
+.upcoming-section .game-grid {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  gap: 0;
+  padding: 1rem;
+}
+
+/* Responsive Design */
+@media (max-width: 768px) {
+  .navbar {
+    flex-direction: column;
+    align-items: center;
+    padding: 1rem;
+  }
+
+  .menu {
+    flex-direction: column;
+    align-items: center;
+    margin-top: 1rem;
+  }
+
+  .menu li {
+    margin: 0.5rem 0;
+  }
+
+  .game-grid, .news-grid {
+    grid-template-columns: 1fr;
+    gap: 0;
+    padding: 0.5rem;
+  }
+
+  .upcoming-section .game-grid {
+    flex-direction: column;
+    align-items: center;
+  }
+
+  .logo {
+    font-size: 1.5rem;
+  }
+
+  .game-card, .news-card {
+    width: 100%;
+    height: auto;
+  }
+
+  .game-image {
+    height: 250px;
+  }
+
+  .news-image {
+    height: 200px;
+  }
+
+  .store-item {
+    gap: 0.5rem; /* Slightly reduced gap on mobile */
+  }
+
+  .buy-btn {
+    max-width: 100%;
+  }
+}
+
+@media (min-width: 769px) and (max-width: 1024px) {
+  .game-grid, .news-grid {
+    grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
+  }
+
+  .game-card, .news-card {
+    width: 250px;
+  }
+
+  .game-image {
+    height: 250px;
+  }
+
+  .news-image {
+    height: 200px;
+  }
+
+  .store-item {
+    gap: 0.75rem; /* Adjusted gap for tablet */
+  }
+
+  .buy-btn {
+    max-width: 250px;
+  }
+}
