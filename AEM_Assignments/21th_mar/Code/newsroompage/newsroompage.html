@@ -1,0 +1,10 @@
+<!-- /apps/myproject/components/page/newsroompage/newsroompage.html -->
+<sly data-sly-use.page="com.adobe.cq.wcm.core.components.models.Page">
+    <html>
+        <head data-sly-call="${headlibs @ page=page}"></head>
+        <body>
+            <h1>News Room</h1>
+            <sly data-sly-resource="${'content' @ resourceType='sling:orderedFolder'}"></sly>
+        </body>
+    </html>
+</sly>

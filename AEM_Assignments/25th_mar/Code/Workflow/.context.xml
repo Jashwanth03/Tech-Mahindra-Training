@@ -1,0 +1,29 @@
+<!-- /apps/myproject/workflow/models/mycustomworkflow/.content.xml -->
+<?xml version="1.0" encoding="UTF-8"?>
+<jcr:root xmlns:cq="http://www.day.com/jcr/cq/1.0" 
+    xmlns:jcr="http://www.jcp.org/jcr/1.0" 
+    xmlns:nt="http://www.jcp.org/jcr/nt/1.0"
+    jcr:primaryType="cq:WorkflowModel"
+    description="My Custom Workflow"
+    title="My Custom Workflow">
+    <nodes jcr:primaryType="nt:unstructured">
+        <node0 jcr:primaryType="cq:WorkflowNode"
+            title="Start"
+            type="START"/>
+        <node1 jcr:primaryType="cq:WorkflowNode"
+            title="Print Page Title Process"
+            type="PROCESS"
+            process="com.myproject.workflow.PrintPageTitleProcess"/>
+        <node2 jcr:primaryType="cq:WorkflowNode"
+            title="End"
+            type="END"/>
+    </nodes>
+    <transitions jcr:primaryType="nt:unstructured">
+        <transition0 jcr:primaryType="cq:WorkflowTransition"
+            from="node0"
+            to="node1"/>
+        <transition1 jcr:primaryType="cq:WorkflowTransition"
+            from="node1"
+            to="node2"/>
+    </transitions>
+</jcr:root>

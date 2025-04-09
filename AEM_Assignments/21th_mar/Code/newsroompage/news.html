@@ -1,0 +1,8 @@
+<!-- /apps/myproject/components/news/news.html -->
+<div class="cop-news-component ${properties.style @ context='attribute'}">
+    <h2>${properties.newsTitle}</h2>
+    <p>${properties.newsDetail}</p>
+    <div>Published: ${properties.publishedDate}</div>
+    <div>Source: ${properties.source}</div>
+    <a href="#" class="read-more">${currentPage.readMoreCTA || 'Read More'}</a>
+</div>
